@@ -1,0 +1,4 @@
+.env
+test.py
+jobs_gpt.db
+jobs.db
