@@ -228,6 +228,7 @@ while number_of_jobs_scanned_new < scan_limit:
         job_ids.add(id)    
         number_of_jobs_scanned_total += 1
         number_of_jobs_scanned_new += 1
+        # Commented out code for debugging purposes/to compare regex results with GPT
         #bool = False
         """  for lang in set(languages_count.keys()).union(languages_count_gpt.keys()):
             count_a = languages_count.get(lang, 0)
